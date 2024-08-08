@@ -8,10 +8,12 @@ class AlterPostsTable extends Migration
 {
     public function up()
     {
+        // menambahkan kolom slug pada tabel posts
         $this->forge->addColumn('posts', [
-                     'slug VARCHAR(100) UNIQUE'
-                ]);
+            'slug VARCHAR(100) UNIQUE'
+        ]);
     }
+
     public function down()
     {
         $this->forge->dropColumn('posts', 'slug');

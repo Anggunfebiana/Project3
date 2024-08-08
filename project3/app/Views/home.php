@@ -8,11 +8,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>" />
 </head>
-
+<style>
+        body {
+            background-color: #5F9EA0;
+        }
+    </style>
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="<?= base_url() ?>">MyBlog</a>
+            <a class="navbar-brand" href="<?= base_url() ?>">BlogAnggun</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,10 +32,13 @@
                         <a class="nav-link" href="<?= base_url('post') ?>">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('contact') ?>">Contact</a>
+                        <a class="nav-link" href="<?= base_url('contact') ?>">Kontak Saya</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('faqs') ?>">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('login') ?>">Login</a>
                     </li>
                 </ul>
             </div>
@@ -40,7 +47,7 @@
 
     <div class="p-5 mb-4 bg-light rounded-3">
         <div class="container py-5">
-            <h1 class="display-5 fw-bold">Selamat Datang</h1>
+            <h1 class="display-5 fw-bold">Anyeonghaseo yeorobun</h1>
             <!-- <p class="col-md-8 fs-4">di laman portal berita</p> -->
             <!-- <button class="btn btn-primary btn-sm" type="button">Read more</button> -->
         </div>
@@ -50,20 +57,20 @@
         <div class="row">
             <div class="col-md-12 my-2 card">
                 <div class="card-body">
-                    <h5 class="h5">Yuk Mulai Ngoding</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+                    <h5 class="h5">Mari belajar bahasa korea</h5>
+                    <p>bahasa korea dapat kamu pelajari dengan mendengar musik pop korea atau juga bisa dengan melihat drama korea</p>
                 </div>
             </div>
             <div class="col-md-12 my-2 card">
                 <div class="card-body">
-                    <h5 class="h5">Supaya Kamu Jadi Lebih  paham CSS dan JS</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+                    <h5 class="h5">Lancar Menulis dan Berbahasa Korea</h5>
+                    <p>kembangkan skil membaca dan berbahasa koreamu dengan mengikuti kursus berbahasa dan menulis korea</p>
                 </div>
             </div>
             <div class="col-md-12 my-2 card">
                 <div class="card-body">
-                    <h5 class="h5">Coba belajar Codeigniter asyik juga kok</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+                    <h5 class="h5">Coba belajar Dengan menonton Vidio</h5>
+                    <p>selain mengikuti kursus, mendengar dan menonton korea drma kamu juga bisa dengan cara menonton youtube</p>
                 </div>
             </div>
         </div>
@@ -78,6 +85,7 @@
     </div>
 
     <!-- Jquery dan Bootstrap JS -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#008B8B" fill-opacity="1" d="M0,224L60,218.7C120,213,240,203,360,186.7C480,171,600,149,720,165.3C840,181,960,235,1080,245.3C1200,256,1320,224,1380,208L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     <script src="<?= base_url('js/jquery.min.js') ?>"></script>
     <script src="<?= base_url('js/bootstrap.min.js') ?>"></script>
 </body>
